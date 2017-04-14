@@ -1,8 +1,10 @@
-# Arquitetura detalhada dos requisitos
+﻿# Arquitetura detalhada dos requisitos
 
 ## Agendamento
 - Enviar SMS, receber SMS, relatório de enviados/recebidos: detalhar integração
 - Alerta de retorno (WhatsApp): detalhar integração
+- Lembrete via e-mail
+- Agenda telefônica e de contatos(WhatsApp)
 
 ## Financeiro e faturamento
 - Gerenciar convênios: Dependência de sistema de plano de saúde
@@ -15,11 +17,14 @@
 
 ## Atenção à saúde
 - Cadastro de paciente com fotos, Fotografias: detalhar fluxo e impacto no BD, image hosting
+- Cadastro de paciente : detalhar ficha e histórico clínico
 - Solicitação de exames: detalhar fluxo de comunicação
 - Solicitação de próteses: detalhar fluxo de comunicação
+- Controle dos procedimentos realizados (abertos, realizados, cancelados)
 
 ## Produtos
 - Requisição de produtos: detalhar comunicação com sistema externo (fornecedor)
+- Controle de estoque : detalhar o controle de compras, requisição dos produtos, informações no BD sobre produtos disponíveis
 
 ## Pessoal
 - Comunicação interna: detalhar processo e fluxos de comunicação das instâncias (entre PCs)
@@ -27,15 +32,20 @@
 - Controle de ponto: avaliar necessidades operacionais (ex.: ter biometria) e legais (ex.: lei exige que certas informações sejam armazenadas de formas específicas para fins de fiscalização)
 
 ## Software e hardware
+- O sistema deve realizar backup diário.
+- Cliente disponível para iOs, Android e desktop (browser)
+- Funcionalidade pode ser executada em Windows, Linux ou MacOS.
 - Acesso à agenda online, tanto pelo paciente quanto pelo odontólogo: avaliar fluxos de autenticação e comunicação com BD
 - Pode ser implantado em "nuvem": Levantar necessidades
 - Suporte para múltiplos idiomas
+- O SISB deve interagir com os serviços do barramento do SUS: CNS, CNES, SIGTAP, e-SUS AB e Horus.: detalhar integração.
 - O SISB deve estar em conformidade com o Manual de Certificação da SBIS. Não conformidades deverão ser aprovadas pelo patrocinador.
 - Manutenção corretiva deve ser feita em no máximo 2 dias: detalhar como será feito o processo de manutenção e implantação de atualização
-- O SISB deve ser capaz de se manter em operação por um peíodo ininterrupto de 30 dias: verificar necessidade do framework utilizado (ou do próprio SISB) de ser reiniciado para manutenção
+- O SISB deve ser capaz de se manter em operação por um período ininterrupto de 30 dias: verificar necessidade do framework utilizado (ou do próprio SISB) de ser reiniciado para manutenção
 - O cenário típico de uso do SISB é uma instalação que atende 10 usuários. Outros cenários devem contemplar 50, 200, 1.000 e 10.000 usuários.
 - O SISB deve estar apto para armazenar dados para 5000, 100.000 e 10.000.000 de pacientes.
 - O cycle time do SISB deve ser de, no máximo, 2 horas.
+- O SISB DEVE ter facilidadde de uso (mesmo que seja preciso diminuir outra qualidade).
 
 # Requisitos não conhecidos/Não foi possível classificar
 
@@ -63,7 +73,8 @@
 -
 
 ## Pessoal
--
+- Como será classificado o ranking dos dentistas?
+- A estatística de produtividade será feita com base em todos os dentistas ou individualmente? (será comparada?)
 
 ## Software e hardware
 - Qualidade interna. A interação de clientes (interface com o usuário) e os serviços oferecidos será projetado em conformidade com as diretrizes contidas no [API Design Guid](https://cloud.google.com/apis/design/).
