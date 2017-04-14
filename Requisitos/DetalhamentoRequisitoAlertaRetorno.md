@@ -2,7 +2,7 @@
 ## Objetivo :
 O requisito trata a necessidade de avisar ao paciente para que o mesmo não esquece que será necessário novo agendamento de consulta. Após a consulta médica, se avaliado que o paciente precise de uma nova consulta posterior, será enviado através do aplicativo ‘Whatsapp’ um alerta de retorno.
 ## Fluxo :
-![fluxo](https://https://github.com/arquiteturaes/arquitetura201701/blob/master/Imagens/fluxoAlertaRetorno.png?raw=true)
+![fluxo](https://raw.githubusercontent.com/arquiteturaes/arquitetura201701/master/Imagens/fluxoAlertaRetorno.pngS)
 ## Casos de uso :
 ## Caso de uso Envio de alerta.:
 ## Pré-condição:
