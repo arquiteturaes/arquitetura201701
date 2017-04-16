@@ -1,4 +1,4 @@
-# Requisito : Solicitação de Exame
+# Requisito : Solicitação de Exames
 
 ## Objetivo :
 Após completada pelo menos uma consulta - a ser confirmada na ficha clínica em informaçoes médicas -, o paciente tem permissao de solicitar determinado exame indicado pelo médico e formalizado por um documento de encaminhamento de exame, que também estar detalhada na ficha clínica. 
@@ -8,7 +8,6 @@ O exame deve ser agendado de acordo com disponibilidade de infraestrutura e prof
 ![fluxo](link fluxo bmpn)
 - diagrama de sequencia
 - casos de uso
-- diagrama de classe
 
 
 ## Casos de uso exames Radiografia Extrabucais:
