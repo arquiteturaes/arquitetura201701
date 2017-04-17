@@ -1,15 +1,14 @@
-# Requisito : Solicitação de Exames
+ ## Requisito : Solicitação de Exames
 
 ## Objetivo :
 Após completada pelo menos uma consulta - a ser confirmada na ficha clínica em informaçoes médicas -, o paciente tem permissao de solicitar determinado exame indicado pelo médico e formalizado por um documento de encaminhamento de exame, que também estar detalhada na ficha clínica. 
 O exame deve ser agendado de acordo com disponibilidade de infraestrutura e profissionais. 
 
-## Fluxo [PARTE PENDENTE~ :
-![fluxo](link fluxo bmpn)
-- diagrama de sequencia
-- casos de uso
+## Diagrama de Casos de Uso:
+![casoUso](https://raw.githubusercontent.com/arquiteturaes/arquitetura201701/master/Imagens/CasoUso_Exame.png)
 
 
+## Descriçao Casos de uso :
 ## Casos de uso exames Radiografia Extrabucais:
 ## Caso de uso agendamento consulta:
 ## Pré-condição:
@@ -17,7 +16,7 @@ O exame deve ser agendado de acordo com disponibilidade de infraestrutura e prof
   .Deve existir o documento de encaminhamento para exame, advinda de consulta anterior
 
 ## Fluxos de eventos:
-	.É identificada qual modalidade de exame o paciente deseja, podendo ser: 
+         .É identificada qual modalidade de exame o paciente deseja, podendo ser: 
     * Panorâmica da Face
     * Panorâmica com análise para Implantes
     * Carpal - Idade Óssea
@@ -30,6 +29,7 @@ O exame deve ser agendado de acordo com disponibilidade de infraestrutura e prof
     * Análise Cefalométrica Computadorizada
     
 	.O administrador consulta agenda de disponibilidade para realizamento de exame buscando a data mais proxima possível
+	.O administrador tambem checa a agenda online do profissional responsável por fazer o exame
 	.O administrador agenda consulta para paciente
   
  ## Pos-condição:
@@ -50,6 +50,7 @@ O exame deve ser agendado de acordo com disponibilidade de infraestrutura e prof
     * Periapical de dentes indicados
     
 	.O administrador consulta agenda de disponibilidade para realizamento de exame buscando a data mais proxima possível
+	.O administrador tambem checa a agenda online do profissional responsável por fazer o exame
 	.O administrador agenda consulta para paciente
   
  ## Pos-condição:
@@ -61,7 +62,8 @@ O exame deve ser agendado de acordo com disponibilidade de infraestrutura e prof
   
 ## Caso de uso exames Tomografia Computadorizada:
 ## Pré-condição:
-  .O administardor deve estar logado no sistema  
+  .O administardor deve estar logado no sistema 
+  .O administrador tambem checa a agenda online do profissional responsável por fazer o exame
   .Deve existir o documento de encaminhamento para exame, advinda de consulta anterior
 
 ## Fluxos de eventos:
@@ -77,6 +79,7 @@ O exame deve ser agendado de acordo com disponibilidade de infraestrutura e prof
     * Traumatologia
     
 	.O administrador consulta agenda de disponibilidade para realizamento de exame buscando a data mais proxima possível
+	.O administrador tambem checa a agenda online do profissional responsável por fazer o exame
 	.O administrador agenda consulta para paciente
   
  ## Pos-condição:
