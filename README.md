@@ -5,7 +5,7 @@
 
 * A arquitetura aqui descrita foi elaborada com base no livro [Microsoft Application Architecture Guide, 2nd Edition](https://msdn.microsoft.com/pt-br/library/ff650706.aspx).
 
-* O desenvolvimento da arquitetura pode ser acompanhado através [deste documento](https://docs.google.com/document/d/1Ov7fvHTwSJ74H9hHbUWMXF_eiJiKCydxdj-UeLab4-I/edit), com entrega final na data de 30/06/2017. 
+* O desenvolvimento da arquitetura pode ser acompanhado através [deste documento](https://docs.google.com/document/d/1Ov7fvHTwSJ74H9hHbUWMXF_eiJiKCydxdj-UeLab4-I/edit), com entrega final na data de 27/06/2017. 
 
 ## Integrantes 
 [- Ana Luísa Burjack - 201503328](https://github.com/analuisaburjack)
